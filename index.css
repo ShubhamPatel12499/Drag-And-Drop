@@ -1,0 +1,24 @@
+#box{
+    display: flex;
+    justify-content: flex-start;
+    gap:30px;
+}
+#squareObj{
+    width:100px;
+    height:100px;
+}
+#squareObj:nth-child(1){
+    background-color: black;
+}
+#squareObj:nth-child(2){
+    background-color: red;
+}
+#squareObj:nth-child(3){
+    background-color: aqua;
+}
+#squareObj:nth-child(4){
+    background-color: green;
+}
+#squareObj:nth-child(5){
+    background-color: yellowgreen;
+}
